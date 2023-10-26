@@ -11,12 +11,6 @@ class ProductModel {
                 }
             })
         })
-	// draft comment for PR check
-	// draft comment for PR check
-	// draft comment for PR check
-	// draft comment for PR check
-	// draft comment for PR check
-	// draft comment for PR check
     }
     static async getProduct(productID){
         return new Promise((resolve, reject) => {
@@ -35,9 +29,6 @@ class ProductModel {
                 }
             })
         })
-	// draft comment for PR check
-	// draft comment for PR check
-	// draft comment for PR check
     }
     static async storeProduct(name, type, description, price){
         return new Promise((resolve, reject) => {
