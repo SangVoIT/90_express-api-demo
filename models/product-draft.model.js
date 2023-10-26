@@ -11,7 +11,6 @@ class ProductModel {
                 }
             })
         })
-	// draft comment for PR check
     }
     static async getProduct(productID){
         return new Promise((resolve, reject) => {
